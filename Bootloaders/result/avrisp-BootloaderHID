@@ -1,0 +1,4 @@
+#!/bin/sh -e
+# 4KB 2.2V
+sudo avrdude -v -p atmega32u4 -c avrisp2 -Pusb -e -U flash:w:BootloaderHID.hex \
+     -U lfuse:w:0x5f:m -U hfuse:w:0xd9:m -U efuse:w:0xc5:m
