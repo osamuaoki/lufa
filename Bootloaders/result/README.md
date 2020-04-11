@@ -2,9 +2,9 @@
 
 This is on the branch teenst2 at https://github.com/osamuaoki/lufa
 
-This resilt directory contains compiled bootloaders and programmers from the
+This result directory contains compiled bootloaders and programmers from the
 LUFA source of this branch and my forked nanoBoot bootloader.  These are
-targetted for Teensy 2,0 compatible ATmega32u4 board.
+targeted for Teensy 2,0 compatible ATmega32u4 board.
 
 
 ## Bootloader
